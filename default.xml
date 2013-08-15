@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="source.android.com" />
   <default revision="froyo"
            remote="aosp"
            sync-j="4" />
