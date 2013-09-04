@@ -3,11 +3,13 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+  <remote  name="DreamRevival"
+           fetch="git://github.com/DreamRevival/" />
   <default revision="froyo"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="platform_build" remote="DreamRevival">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
