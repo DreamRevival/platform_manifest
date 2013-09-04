@@ -4,13 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="DreamRevival"
-           fetch="git://github.com/DreamRevival/"
-           revision="dr-froyo" />
+           fetch="git://github.com/DreamRevival/" />
   <default revision="froyo"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="DreamRevival">
+  <project path="build" name="platform_build" remote="DreamRevival" revision="dr-froyo">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -94,7 +93,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform_external_srec" remote="DreamRevival" />
+  <project path="external/srec" name="platform_external_srec" remote="DreamRevival" revision="dr-froyo" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
