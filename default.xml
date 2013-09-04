@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="DreamRevival">
+  <project path="build" name="platform_build" remote="DreamRevival" revision="dr-froyo">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
