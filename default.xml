@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="DreamRevival"
-           fetch="git://github.com/DreamRevival/" />
+           fetch="https://github.com/DreamRevival/" />
   <default revision="froyo"
            remote="aosp"
            sync-j="4" />
